@@ -1,0 +1,277 @@
+/* ============================================================ */
+/* ОСНОВНЫЕ СТИЛИ                                               */
+/* ============================================================ */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e8daef;  /* СВЕТЛО-ФИОЛЕТОВЫЙ */
+    color: #333333;
+}
+
+/* ============================================================ */
+/* ШАПКА (header) — СВЕТЛО-ГОЛУБОЙ                              */
+/* ============================================================ */
+header {
+    background: #d4e6f1;  /* СВЕТЛО-ГОЛУБОЙ */
+    color: #1a1a2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    height: 50px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    color: #1a1a2e;
+}
+
+header nav a {
+    color: #1a1a2e;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 16px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+header nav a:hover {
+    color: #e74c3c;
+}
+
+header .contacts-header {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #1a1a2e;
+}
+
+/* ============================================================ */
+/* БАННЕР                                                       */
+/* ============================================================ */
+.banner {
+    background: #d4e6f1;  /* СВЕТЛО-ГОЛУБОЙ */
+    color: #1a1a2e;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.banner-content h2 {
+    font-size: 36px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0 0 15px;
+    color: #1a1a2e;
+}
+
+.banner-content p {
+    font-size: 18px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0 0 20px;
+    color: #1a1a2e;
+}
+
+/* ============================================================ */
+/* КНОПКИ                                                       */
+/* ============================================================ */
+.btn {
+    display: inline-block;
+    background: #e74c3c;
+    color: #ffffff;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #c0392b;
+}
+
+.btn-secondary {
+    background: #e74c3c;
+}
+
+.btn-secondary:hover {
+    background: #c0392b;
+}
+
+/* ============================================================ */
+/* БЛОК ПРЕИМУЩЕСТВ                                             */
+/* ============================================================ */
+.advantages {
+    background: #e8daef;  /* СВЕТЛО-ФИОЛЕТОВЫЙ */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.advantages h2 {
+    font-size: 28px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    color: #1a1a2e;
+    margin-bottom: 30px;
+}
+
+.advantage-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.advantage-item {
+    background: #ffffff;
+    padding: 25px 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.advantage-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.advantage-item h3 {
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    color: #1a1a2e;
+    margin: 10px 0 5px;
+}
+
+.advantage-item p {
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #7f8c8d;
+    margin: 0;
+}
+
+/* ============================================================ */
+/* БЛОК РАСПИСАНИЯ                                              */
+/* ============================================================ */
+.schedule {
+    background: #e8daef;  /* СВЕТЛО-ФИОЛЕТОВЫЙ */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.schedule h2 {
+    font-size: 28px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    color: #1a1a2e;
+    margin-bottom: 20px;
+}
+.schedule ul {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto 20px;
+}
+
+.schedule ul li {
+    background: #ffffff;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 6px;
+    font-size: 18px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #333333;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.schedule ul li .time {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* ============================================================ */
+/* БЛОК ТРЕНЕРОВ                                                */
+/* ============================================================ */
+.trainers {
+    background: #e8daef;  /* СВЕТЛО-ФИОЛЕТОВЫЙ */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.trainers h2 {
+    font-size: 28px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: bold;
+    color: #1a1a2e;
+    margin-bottom: 30px;
+}
+
+.trainers-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.trainer-item {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.trainer-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #e74c3c;
+}
+
+.trainer-item .trainer-name {
+    font-size: 18px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #1a1a2e;
+    margin: 10px 0 5px;
+}
+
+.trainer-item .trainer-spec {
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #7f8c8d;
+    margin: 0;
+}
+
+/* ============================================================ */
+/* ПОДВАЛ (footer) — СВЕТЛО-ЖЁЛТЫЙ                             */
+/* ============================================================ */
+footer {
+    background: #f9e79f;  /* СВЕТЛО-ЖЁЛТЫЙ */
+    color: #1a1a2e;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #1a1a2e;
+}
+
+footer a {
+    color: #1a1a2e;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e74c3c;
+}
